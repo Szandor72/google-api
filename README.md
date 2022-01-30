@@ -3,8 +3,8 @@
 1. Get a Google service account with API access and credentials
 2. Convert p12 file to jks, have a working jdk installed (I use openjdk)
    `keytool -importkeystore -srckeystore ./serviceaccountfilename.p12 -destkeystore googlecalendarapiserviceaccount.jks -srcstorepass notasecret -srcalias privatekey -srcstoretype pkcs12 -deststoretype jks -destalias googlecalendarcertificate -deststorepass notasecret`
-3. Create Remote Site Setting for `https://www.googleapis.com`, Identity Provider and upload jks
-4. Have fun with GoogleApi class after editing header variables.
+3. Create Remote Site Setting for `https://www.googleapis.com`, Identity Provider and upload jks to Key Manager
+4. Have fun with GoogleApi Class after editing header variables. This is the only class in this repo. 
 5. This is just an example. Do not use in production.
 
 # Resources
