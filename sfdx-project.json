@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "google-api",
+      "default": true
+    }
+  ],
+  "name": "google-api",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "52.0"
+}
